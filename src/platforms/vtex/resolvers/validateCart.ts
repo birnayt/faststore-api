@@ -97,7 +97,7 @@ export const validateCart = async (
   const orderForm = await commerce.checkout.orderForm({
     id: orderNumber,
   })
-
+  console.log(orderForm, 'orderForm')
   // Step2: Process items from both browser and checkout so they have the same shape
   const browserItemsById = groupById(acceptedOffer)
   const originItemsById = groupById(orderForm.items.map(orderFormItemToOffer))
