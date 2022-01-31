@@ -18,8 +18,7 @@
     "build": "graphql-codegen --config codegen.yml && tsdx build",
     "test": "tsdx test",
     "lint": "tsdx lint",
-    "generate": "graphql-codegen --config codegen.yml",
-    "prepare": "npm install . && npm run build"
+    "generate": "graphql-codegen --config codegen.yml"
   },
   "dependencies": {
     "@graphql-tools/schema": "^8.2.0",
