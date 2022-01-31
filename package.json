@@ -19,7 +19,7 @@
     "test": "tsdx test",
     "lint": "tsdx lint",
     "generate": "graphql-codegen --config codegen.yml",
-    "prepare": "yarn build"
+    "prepare": "npm run build"
   },
   "dependencies": {
     "@graphql-tools/schema": "^8.2.0",
